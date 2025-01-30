@@ -15,7 +15,7 @@ export class MyCounter extends LitElement {
     return html`
       <div>
         <span>${this.count}</span>
-        <button></button>
+        <button>Incrementar</button>
       </div>
     `;
   }
